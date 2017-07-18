@@ -1,0 +1,15 @@
+#忽略class编译文件  
+*.class  
+#忽略maven编译的target文件夹  
+/target/ 
+#忽略eclipse的工程文件  
+/.classpath
+/.project 
+/.settings/
+#忽略本地git仓库
+/.git/
+#忽略日志文件
+*.log
+#忽略idea编译器产生的文件
+/.idea/
+*.iml
