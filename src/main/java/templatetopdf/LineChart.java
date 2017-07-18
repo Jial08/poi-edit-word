@@ -20,6 +20,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+/**
+ * 用JFreeChart生成图片
+ *
+ * 注意：如果项目在linux部署，可能会出现图片上的中文都显示口的情况，具体解决思如如下：
+ * http://blog.csdn.net/loveany121/article/details/7944077
+ */
 public class LineChart {
 	// 临时文件存放路径
 	public static String tempfilepath = "tempFile";
